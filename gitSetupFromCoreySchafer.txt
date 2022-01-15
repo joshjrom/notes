@@ -1,0 +1,207 @@
+------------------------------------------------------------
+Source - https://www.youtube.com/watch?v=HVsySz-h9r4&t=1402s
+------------------------------------------------------------
+
+---------------
+First git setup
+---------------
+
+You should install git from git's website 
+
+git --version (to check the version of git after installation)
+
+git config --global user.name "Joshua Ayegba" (to set the user's name)
+
+git congif --global user.email "ayegbajoshua@yahoo.com" (to set the user's email address)
+
+git config --list (to check the entered values e.g name and email of user)
+
+git help config or git config --help or git add --help (to check the inbuild tutorial for help)
+
+
+---------------------------------------
+Scenario for two different users of git
+---------------------------------------
+
+----------
+Scenario 1
+----------
+
+A user who already has an existing project that he wants to send to github 
+
+- git init (to initialise git in the directory you have your code - .git hidden file will be created)
+
+- git status (shows untracked files)
+
+- git add -A or --all (this will add all files to the staging area)
+
+- git commit -m "Your commit message will go here e.g. Initial Commit" (to save tacked changes)
+
+- git remote add origin https://github.com/joshjrom/facebook-clone.git (to link the newly created github repository with git)
+
+- git remote -v (it lists the information to the repository i.e. github link and local machine link (fetch and push links)
+
+- git push origin master or git push -u origin master (to push file to remote repository or git push -u origin something (something represents a difference branch))
+
+- git log (this gives the key number of the clean commit)
+
+- git branch or git branch -a (to see all branches)
+
+- git diff (to view specific changes that have been made e.g. you changed your code from change.log() to return, return will be shown as the changed code when git diff is used)
+
+- git reset (this will remove all files in the staging directory to the working directory as untract files)
+
+- git reset calc.py (this will remove the files with .py extension from the staging directory to the working directory as untracked files)
+
+- git branch -d something (to delete the committed files on the local machine)
+
+- git push -d origin something (to delete the pushed file on the remote repository (github))
+
+- git restore . (to restore files that have not been saved yet)
+
+- git clone "the link of the repository" (to pull a new forked repository to your local machine)
+
+- git remote set-url origin new_url (to update the url on the local machine after the remote repository (github) folder name has been renamed)
+
+
+
+-----------
+Scenario 2 
+-----------
+
+A user using git in a company where the company has a remote repository and he wants to clone that repository
+
+- git clone <url> <where you want to clone the repository> 
+
+Example: clone https://github.com/CoreyMSchafer/remote_repo.git .
+
+Example explanation: clone is used in the command line, the url is the company's url or your url (if you are restoring to you new machine) and the . signifies the current dirctory in the command line.
+NOTE: THE SCENARIO 2 (SPECIFICALLY git clone <url> <where you want to clone the repository>) CAN ALSO BE USED WHEN YOU ARE RESTORING FILES FROM GITHUB TO YOUR NEW COMPUTER
+
+- git pull origin master (this is used to pull changes from the main repository to update my local repository. This is used when other developers have been pushing codes to the main repository. It is a good practice to always pull before pushing projects)
+
+- git push origin master or git push -u origin master (orgin is the name of the remote repository (github url), while master is the branch we a pushing to)
+NOTE: git push origin master IS ALSO USED TO PUSH YOUR COMMITED CHANGES (git commit -m "Message") TO YOUR GITHUB REPOSITORY WHEN YOU ARE WORKING ALONE ON A PROJECT
+
+
+-----------------------------------------------------------
+To view information about the remote repository i.e. github
+-----------------------------------------------------------
+
+- git remote -v (it lists the information to the repository i.e. github link and local machine link (fectch and push links)
+- git branch -a (it lists all of the branches in the repository)
+
+-----------------------
+Other information views
+-----------------------
+- git diff (to view specific changes that have been made e.g. you changed your code from change.log() to return, return will be shown as the changed code when git diff is used)
+
+
+------------------------------------------
+There are 3 states when working with git:
+------------------------------------------
+
+
+- Working Directory (untracked and modified files will be in our working directory and it will be listed when we type git status in the command line)
+
+- Staging Directory (this is were we organise what we want to be stored in our repository. Here, we can pick and choose what we want to be committed. git add -A commits all files to the staging area, while git add .gitignore commits the .gitignore file to the staging area)
+
+To remove files from the staging area:
+git reset (this will remove all files in the staging directory to the working directory as untract files)
+
+git reset calc.py (this will remove the files with .py extension from the staging directory to the working directory as untracked files)
+
+- .git dirctory (Repository) (github)
+
+
+--------------------------------------------------------------------------------------------------------
+.git ignore file (the .gitignore is a simple text file where we can add file that we want git to ignore)
+--------------------------------------------------------------------------------------------------------
+
+touch .gitignore (to create a .gitignore text file)
+You can then add the files you want git to ignore e.g. write the names of the actual files
+.DS_Store (example of the name of the actual file written in the .gitignore text file)
+.project (example of the name of the actual file written in the .gitignore text file)
+*pyc (the asterik makes it a wild card which will make git ignore all file with the .pyc extension)
+
+
+-------
+Branch
+-------
+
+git branch (lists all of the local branches)
+
+git branch something ("something" is the name of the new branch)
+
+git checkout something (switches you to the checkout branch for you to start working from there)
+
+after git status, git add -a, and git commit -m "Message", then you can also push the branch directly using (git push -u origin something or anothersomething) without being on the branch you want to push and using git push origin master or something or anothersomething TO PUSH YOUR COMMITED CHANGES (git commit -m "Message") TO YOUR GITHUB REPOSITORY WHEN YOU ARE WORKING ALONE ON A PROJECT
+
+git branch -a (to see all branches)
+
+
+
+---------------
+Merge a branch 
+---------------
+
+git branch (lists all created branches)
+
+git checkout master (switches you to the master branch)
+
+git pull origin master (pulls changes from remote repository)
+
+git branch --merged (shows branches that have been merged)
+
+git merge something (since you switched to master branch, it will merge something branch to master branch)
+
+git push origin master (this will push master branch to the master branch on the remote repository - github)
+
+
+------------------
+Deleting a branch
+------------------
+
+git branch --merged (shows merged branches)
+
+git branch -d something (deletes something branch from local machine)
+
+git branch -a (lists branches)
+
+git push origin --delete something (deletes something branch from the remote repository - github)
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Also see git init and removal from stackoverflow - https://stackoverflow.com/questions/1213430/how-to-fully-delete-a-git-repository-created-with-init
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+after cloning the repo
+cd /repo folder/
+
+to go to the file directory then
+ls -a
+
+to see all files hidden and unhidden
+.git .. .gitignore .etc
+
+if you like you can check the repo origin
+git remote -v
+
+now delete .git which contains everything about git
+rm -rf .git
+
+after deleting, you would discover that there is no git linked check remote again
+git remote -v
+
+now you can init your repository with
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Leonuch/flex.git
+git push -u origin main
+

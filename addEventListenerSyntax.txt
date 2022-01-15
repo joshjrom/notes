@@ -1,0 +1,11 @@
+p = "Test"
+
+let ptag = document.querySelector("p")
+
+const pclick = () => {
+  alert(50)
+}
+
+ptag.addEventListener("click", () => {
+  pclick()
+})

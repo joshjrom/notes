@@ -1,0 +1,26 @@
+Git installation
+
+- Download git using google 
+
+- In the command line, type --git version
+
+- Create any folder and drag and drop it in Windows Terminal to get the full path and cd into it e.g. cd c:/jo
+
+- git init
+- git log
+- git status - this is to check changes		| git restore . (this restores the last changes made)
+- git add --add (this is git staging)
+- git commit -m "I worked on a new feature"
+- git remote -v 
+
+before creating a new branch, save your current branch (e.g. git commit -m "Label")
+
+branch - a branch is version of your project (use git branch to view all branches)
+
+to create a branch, you use (git branch something (something is the name of the version)
+
+to delete git branch use git branch -d something 
+
+to switch between branches use git checkout or switch anotherbranch
+
+to add files from anothersomething to something use git merge anothersomething (ensure you are on the file (something) you want to pull from)

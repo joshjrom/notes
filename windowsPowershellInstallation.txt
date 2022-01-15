@@ -1,0 +1,3 @@
+Windows Powershell Installation
+
+Install Windows Terminal from Microsoft Shop

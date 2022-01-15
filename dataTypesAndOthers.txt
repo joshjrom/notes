@@ -1,0 +1,33 @@
+Standalone Built-In Functions
+
+print("some text") => Prints to the standard output device
+
+input("enter value") => Asks user for input
+
+set([1, 3, 4]) => Returns a new set. Set is defined as a list of elements with unique values inside, for example, set(user_input.split(",")):
+
+int(20) => Converts value into an integer number
+
+.isdigit() => Used in while loops for conditionals 
+
+.split() => Used to enable comma separated value in a list for example, split(", ")
+
+Data Types
+
+string eg. message = "enter some value"
+
+integers eg. days = 20
+
+float eg. price = 9.99
+
+boolean eg. valid_number = True
+
+boolean eg. exit_input = False
+
+list (intgers) eg. list_of_days = [20, 40, 20, 100]
+
+list (strings) eg. list_of_months = ["January", "February", "June"]
+
+sets (similar to list but does not allow duplicate value and uses curly braces) eg. set_of_days = {20, 45, 100}
+
+dictionary (a collection of key value pairs) eg. days_and_unit = {"days": 10, "unit": "hours"}

@@ -1,0 +1,15 @@
+I installed node - Node Packet Manager that was why I was able to use NMP to install REACT 
+
+NMP - Node Packet Manager
+
+create-react-app name of folder 
+
+to start an existing 
+
+Document Object Model (DOM)
+
+
+
+const apiResearch = (abstract) => {
+	
+}	

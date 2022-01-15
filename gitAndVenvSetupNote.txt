@@ -1,0 +1,30 @@
+FIRST GIT SET UP
+git config --global user.name "Ayegba Joshua" #"Please who are you" message
+git config --global user.email "ayegbajoshua@yahoo.com" #"Please who are you" message
+
+
+
+VIRTUAL ENVIRONMENT SET UP
+python -m venv (name of virtual environment) #it creates a virtual environment
+
+If you encounter problems with activating virtual environment for the first time in VS Code terminal, open Windows PowerShell as Administrator and paste -  Set-ExecutionPolicy RemoteSigned
+
+Ms Docs URL - https://docs.microsoft.com/da-dk/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-5.1
+
+
+
+INITIALIZE GIT AND 
+git init  #to initilize git repository 
+
+git add --all  #to stage changes
+
+git commit -m "commit message E.g First Initialization" #commit changes
+
+
+
+
+
+
+
+
+

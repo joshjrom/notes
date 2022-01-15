@@ -1,0 +1,36 @@
+import "./App.css";
+import { useState } from "react";
+
+const App = () => {
+  const [counter, setCounter] = useState(100);
+
+  const incremental = () => {
+    setCounter(counter + 100);
+  };
+
+  const decremental = () => {
+    setCounter("Joshua");
+  };
+
+  return (
+    <div className="app">
+      <h1>{counter}</h1>
+      <button
+        onClick={() => {
+          incremental();
+        }}
+      >
+        Increment
+      </button>
+      <button
+        onClick={() => {
+          decremental();
+        }}
+      >
+        Stop operation
+      </button>
+    </div>
+  );
+};
+
+export default App;
