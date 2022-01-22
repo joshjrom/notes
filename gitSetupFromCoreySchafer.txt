@@ -47,6 +47,8 @@ A user who already has an existing project that he wants to send to github
 
 - git branch or git branch -a (to see all branches)
 
+- git merge something (since you switched to master branch, it will merge something branch to master branch)
+
 - git diff (to view specific changes that have been made e.g. you changed your code from change.log() to return, return will be shown as the changed code when git diff is used)
 
 - git reset (this will remove all files in the staging directory to the working directory as untract files)
