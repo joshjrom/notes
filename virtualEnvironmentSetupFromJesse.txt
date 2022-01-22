@@ -1,6 +1,6 @@
-python -m venv myEnvironment (to create a virtual environment)
+python -m venv pythonVirtualEnvironmentTest (to create a virtual environment)
 
-myEnvironment/scripts/activate.ps1 (myEnvironment is the name of the created virtual environment, activate.ps1 is used when you create a virtual environment using PowerShell, activate.bat is used when you create a virtual environment using VSCode's terminal)
+pythonVirtualEnvironmentTest/scripts/activate.ps1 (myEnvironment is the name of the created virtual environment, activate.ps1 is used when you create a virtual environment using PowerShell, activate.bat is used when you create a virtual environment using VSCode's terminal)
 
 pip freeze (it lists all packages that have been installed in the environment)
 
