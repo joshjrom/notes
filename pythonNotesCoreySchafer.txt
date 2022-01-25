@@ -30,3 +30,10 @@ courses.sort(reverse=True) - sorts the items in the list in descending order. Ca
 preferredSorted = sorted(courses) - preferred way that sorts in ascending order and returns it to the variable preferredSorted. It can be seen when you print(preferredSorted). This uses sort(variable that holds the array) function.
 
 preferredSorted.sort(reverse=True) - preferred way that sorts in descending order using the .sort(reverse=True) method.
+
+min(num) - is a function. It that takes num (variable holding the list of number items) as an arguement and prints the minimum value.
+
+max(num) - is a function. It that takes num (variable holding the list of number items) as an arguement and prints the highes value.
+
+sum(num) - is a function. It that takes num (variable holding the list of number items) as an arguement and prints the added value of the list.
+
