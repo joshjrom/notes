@@ -13,3 +13,5 @@ pip uninstall -r requirements.txt (it uninstalls all packages in the requirments
 after pip uninstall, then delete thencreated reqirement.txt shown
 
 deactivate (deactivates the active virtual environment)
+
+python -m pip install --upgrade pip (upgrades python)

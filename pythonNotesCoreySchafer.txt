@@ -1,0 +1,32 @@
+Python methods that work on strings 
+
+message.lower()
+
+message.upper()
+
+message.count("Hello")
+
+message.find("World")
+
+new_message = message.replace("World", "Universe")
+
+
+Pythons methods that works on lists
+
+courses.append("Art") - using "append" method add the new list to the end of the main list to be updated.
+
+courses.insert(0, "Art" or courses_2) courses_2 is a list. Using "insert" method adds the new list to the beginning of the main list to be updated in its own square bracket. It does not add each individual value of the list. You will have a list within a list.
+
+courses.extend() - takes one argument and it adds more lists to a list. Extend is used when you have multiple values you want to add to your list. It add adds the individual of the list to the list to be updated. You will not have a list within a list.
+
+courses.pop() - removes the last item in a list. It also returns the item it removes from a list. E.g. poppedCourse = courses.pop(). print(poppedCourse) shows the removed item from the list.
+
+courses.reverse() - reverses (last item to first item) the items in the list when printed.
+
+courses.sort() - sorts the items in the list in ascending order. Careful! This alter the items in the main list.
+
+courses.sort(reverse=True) - sorts the items in the list in descending order. Careful! This alters the items in the main list.
+
+preferredSorted = sorted(courses) - preferred way that sorts in ascending order and returns it to the variable preferredSorted. It can be seen when you print(preferredSorted). This uses sort(variable that holds the array) function.
+
+preferredSorted.sort(reverse=True) - preferred way that sorts in descending order using the .sort(reverse=True) method.
