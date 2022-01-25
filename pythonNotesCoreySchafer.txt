@@ -31,9 +31,9 @@ preferredSorted = sorted(courses) - preferred way that sorts in ascending order 
 
 preferredSorted.sort(reverse=True) - preferred way that sorts in descending order using the .sort(reverse=True) method.
 
-min(num) - is a function. It that takes num (variable holding the list of number items) as an arguement and prints the minimum value.
+min(num) - it is a function. It that takes num (variable holding the list of number items) as an arguement and prints the minimum value.
 
-max(num) - is a function. It that takes num (variable holding the list of number items) as an arguement and prints the highes value.
+max(num) - it is a function. It that takes num (variable holding the list of number items) as an arguement and prints the highes value.
 
-sum(num) - is a function. It that takes num (variable holding the list of number items) as an arguement and prints the added value of the list.
+sum(num) - it is a function. It that takes num (variable holding the list of number items) as an arguement and prints the added value of the list.
 
