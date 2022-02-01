@@ -37,3 +37,7 @@ max(num) - it is a function. It that takes num (variable holding the list of num
 
 sum(num) - it is a function. It that takes num (variable holding the list of number items) as an arguement and prints the added value of the list.
 
+course.index("name of item e.g. CompSci") - .index is function. it finds the index of the CompSci. item in the list.
+
+print("Art" in course) - it uses the "in" operator to check if an item is in a list.
+

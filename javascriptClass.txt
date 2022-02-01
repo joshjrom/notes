@@ -1,0 +1,35 @@
+class People {
+  constructor(f, l, intestests) {
+    this.firstName = f;
+    this.lastName = l;
+    this.interest = intestests;
+  }
+
+  getName() {
+    return 7;
+  }
+
+  then() {
+    return `${this.firstName} ${this.lastName}`;
+  }
+  map() {
+    return [];
+  }
+  getInterests() {
+    return this.interest;
+  }
+}
+
+const jesse = new People("Jesse", "Ayegba", ["basketball", "coding"]);
+
+const ajuma = new People("Ajuma", "Ayegba");
+
+const amina = new People("");
+
+console.log(jesse.then());
+
+console.log(amina.map());
+
+amina.interest;
+
+console.log(jesse.getInterests());
