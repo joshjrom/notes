@@ -63,6 +63,8 @@ A user who already has an existing project that he wants to send to github
 
 - git clone "the link of the repository" (to pull a new forked repository to your local machine)
 
+- git pull origin master (this is used to pull changes from the main repository to update my local repository after you clone a forked repository)
+
 - git remote set-url origin new_url (to update the url on the local machine after the remote repository (github) folder name has been renamed)
 
 
