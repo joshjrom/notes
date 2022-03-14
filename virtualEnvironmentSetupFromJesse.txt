@@ -8,7 +8,7 @@ pip install -r requirements.txt (it creates a requirments text file)
 
 pip freeze > requirements.txt (this pushes all installed packeges to the requirements.txt file)
 
-pip uninstall -r requirements.txt (it uninstalls all packages in the requirments text file, after which the requirement text file has to be uninstalled manually)
+pip uninstall -r requirements.txt (it uninstalls all packages in the requirements text file, after which the requirement text file has to be uninstalled manually)
 
 after pip uninstall, then delete thencreated reqirement.txt shown
 
