@@ -79,7 +79,7 @@ A user using git in a company where the company has a remote repository and he w
 
 Example: clone https://github.com/CoreyMSchafer/remote_repo.git .
 
-Example explanation: clone is used in the command line, the url is the company's url or your url (if you are restoring to you new machine) and the . signifies the current dirctory in the command line.
+Example explanation: clone is used in the command line, the url is the company's url or your url (if you are restoring to your new machine) and the . signifies the current dirctory in the command line.
 NOTE: THE SCENARIO 2 (SPECIFICALLY git clone <url> <where you want to clone the repository>) CAN ALSO BE USED WHEN YOU ARE RESTORING FILES FROM GITHUB TO YOUR NEW COMPUTER
 
 - git pull origin master (this is used to pull changes from the main repository to update my local repository. This is used when other developers have been pushing codes to the main repository. It is a good practice to always pull before pushing projects)
